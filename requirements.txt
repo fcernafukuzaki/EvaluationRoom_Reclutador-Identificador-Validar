@@ -3,7 +3,7 @@
 # set FLASK_APP=src/app.py
 # flask run
 
-Flask==1.1.2
+Flask==2.0.1
 Flask-SQLAlchemy==2.4.1
 flask-restful
 psycopg2==2.8.4
@@ -12,3 +12,4 @@ flask-marshmallow
 marshmallow
 marshmallow-sqlalchemy
 flask-cors
+gunicorn
